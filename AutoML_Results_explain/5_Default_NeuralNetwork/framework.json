@@ -1,0 +1,351 @@
+{
+    "uid": "3a7dac3e-697d-45e8-9fe4-f18487c1356d",
+    "name": "5_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.5905334068490836,
+                        17.490656912714524,
+                        1.2850208285024733,
+                        2110.231906836384,
+                        0.31244777533082957,
+                        10.478252358655956,
+                        13.32318422960993,
+                        15.59880921888888,
+                        15.37179165992602,
+                        25.722905753820612,
+                        14.67250124595282,
+                        0.4978824267128277,
+                        0.3202863598563933,
+                        7.602424430868481,
+                        2.4646196667164912,
+                        2.5663025766896195,
+                        4.236428946180895,
+                        3.137178079068568,
+                        4.912886384327459,
+                        4.017744578018151,
+                        5.230855264044574,
+                        2.64989911758076,
+                        1.3896653483013066,
+                        2.2861135799035384
+                    ],
+                    "mean": [
+                        1.1752072343632254,
+                        18.65486058779201,
+                        1.7117558402411455,
+                        8839.923511680483,
+                        0.8903541823662396,
+                        4.72871137905049,
+                        132.89966088922378,
+                        19.468349660889224,
+                        22.348907309721177,
+                        10.812358703843255,
+                        127.24069329314243,
+                        0.5459683496608893,
+                        0.8839487565938207,
+                        23.25244913338357,
+                        0.7456669178598342,
+                        6.276563677467973,
+                        8.270911831198191,
+                        4.713639788997739,
+                        10.56251630301432,
+                        8.030143180105501,
+                        10.166250895154484,
+                        11.60357950263753,
+                        1.2105501130369254,
+                        -0.010866616428033138
+                    ],
+                    "var": [
+                        0.34872970460478536,
+                        305.9230792382884,
+                        1.6512785296851833,
+                        4453078.700630321,
+                        0.09762361230918454,
+                        109.79377249167912,
+                        177.50723801612673,
+                        243.3228490472927,
+                        236.29197883617115,
+                        661.6678804199375,
+                        215.28229281248704,
+                        0.24788691082945422,
+                        0.10258335231005908,
+                        57.79685722706595,
+                        6.074350101565709,
+                        6.585908915123779,
+                        17.94733021603937,
+                        9.841886299788351,
+                        24.13645262531013,
+                        16.142271494194254,
+                        27.361846793382828,
+                        7.02196533335529,
+                        1.9311697802693921,
+                        5.2263153002193725
+                    ],
+                    "n_samples_seen": 2654,
+                    "n_features_in": 24,
+                    "columns": [
+                        "Marital Status",
+                        "Application mode",
+                        "Application order",
+                        "Course",
+                        "Daytime/evening attendance",
+                        "Previous qualification",
+                        "Previous qualification (grade)",
+                        "Mother's qualification",
+                        "Father's qualification",
+                        "Mother's occupation",
+                        "Admission grade",
+                        "Displaced",
+                        "Tuition fees up to date",
+                        "Age at enrollment",
+                        "Curricular units 1st sem (credited)",
+                        "Curricular units 1st sem (enrolled)",
+                        "Curricular units 1st sem (evaluations)",
+                        "Curricular units 1st sem (approved)",
+                        "Curricular units 1st sem (grade)",
+                        "Curricular units 2nd sem (evaluations)",
+                        "Curricular units 2nd sem (grade)",
+                        "Unemployment rate",
+                        "Inflation rate",
+                        "GDP"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Marital Status": [
+                        "scale_normal"
+                    ],
+                    "Application mode": [
+                        "scale_normal"
+                    ],
+                    "Application order": [
+                        "scale_normal"
+                    ],
+                    "Course": [
+                        "scale_normal"
+                    ],
+                    "Daytime/evening attendance": [
+                        "scale_normal"
+                    ],
+                    "Previous qualification": [
+                        "scale_normal"
+                    ],
+                    "Previous qualification (grade)": [
+                        "scale_normal"
+                    ],
+                    "Mother's qualification": [
+                        "scale_normal"
+                    ],
+                    "Father's qualification": [
+                        "scale_normal"
+                    ],
+                    "Mother's occupation": [
+                        "scale_normal"
+                    ],
+                    "Admission grade": [
+                        "scale_normal"
+                    ],
+                    "Displaced": [
+                        "scale_normal"
+                    ],
+                    "Tuition fees up to date": [
+                        "scale_normal"
+                    ],
+                    "Age at enrollment": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 1st sem (credited)": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 1st sem (enrolled)": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 1st sem (evaluations)": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 1st sem (approved)": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 1st sem (grade)": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 2nd sem (evaluations)": [
+                        "scale_normal"
+                    ],
+                    "Curricular units 2nd sem (grade)": [
+                        "scale_normal"
+                    ],
+                    "Unemployment rate": [
+                        "scale_normal"
+                    ],
+                    "Inflation rate": [
+                        "scale_normal"
+                    ],
+                    "GDP": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "ce7d557f-7517-4cbf-b3d1-afa1009dc823",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 5,
+                "num_class": 3,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Marital Status": [
+                    "scale_normal"
+                ],
+                "Application mode": [
+                    "scale_normal"
+                ],
+                "Application order": [
+                    "scale_normal"
+                ],
+                "Course": [
+                    "scale_normal"
+                ],
+                "Daytime/evening attendance": [
+                    "scale_normal"
+                ],
+                "Previous qualification": [
+                    "scale_normal"
+                ],
+                "Previous qualification (grade)": [
+                    "scale_normal"
+                ],
+                "Mother's qualification": [
+                    "scale_normal"
+                ],
+                "Father's qualification": [
+                    "scale_normal"
+                ],
+                "Mother's occupation": [
+                    "scale_normal"
+                ],
+                "Admission grade": [
+                    "scale_normal"
+                ],
+                "Displaced": [
+                    "scale_normal"
+                ],
+                "Tuition fees up to date": [
+                    "scale_normal"
+                ],
+                "Age at enrollment": [
+                    "scale_normal"
+                ],
+                "Curricular units 1st sem (credited)": [
+                    "scale_normal"
+                ],
+                "Curricular units 1st sem (enrolled)": [
+                    "scale_normal"
+                ],
+                "Curricular units 1st sem (evaluations)": [
+                    "scale_normal"
+                ],
+                "Curricular units 1st sem (approved)": [
+                    "scale_normal"
+                ],
+                "Curricular units 1st sem (grade)": [
+                    "scale_normal"
+                ],
+                "Curricular units 2nd sem (evaluations)": [
+                    "scale_normal"
+                ],
+                "Curricular units 2nd sem (grade)": [
+                    "scale_normal"
+                ],
+                "Unemployment rate": [
+                    "scale_normal"
+                ],
+                "Inflation rate": [
+                    "scale_normal"
+                ],
+                "GDP": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_Results_explain/X.data",
+            "y_path": "AutoML_Results_explain/y.data",
+            "results_path": "AutoML_Results_explain"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 5,
+            "num_class": 3,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "5_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "5_Default_NeuralNetwork/learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "5_Default_NeuralNetwork/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.6155433285919705",
+    "train_time": 1.178783893585205,
+    "is_stacked": false,
+    "joblib_version": "1.5.0"
+}
